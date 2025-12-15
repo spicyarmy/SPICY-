@@ -129,6 +129,14 @@
         }
         .btn-discord:hover { background: #4752C4; box-shadow: 0 0 15px rgba(88, 101, 242, 0.4); }
 
+        /* Ticket message button (green) */
+        .btn-ticket {
+            background: #2ecc71;
+            color: white;
+            border: 2px solid #2ecc71;
+        }
+        .btn-ticket:hover { background: #27ae60; box-shadow: 0 0 15px rgba(46, 204, 113, 0.3); }
+
         /* Email Button Style */
         .btn-email {
             background: transparent;
@@ -176,9 +184,14 @@
                     <p class="card-desc">
                         For more support, go to our Discord server and create a <strong>support ticket</strong>. This is the fastest way to get help.
                     </p>
-                    <a https://discord.com/channels/1440530867939446869/1441511415436279839/1441522766372405430">
-                        Join & Open Ticket
-                    </a>
+                    <div style="display:flex;gap:12px;width:100%">
+                        <a href="https://discord.gg/3yWnxcUJPN" target="_blank" class="contact-btn btn-discord" style="flex:1;text-align:center;">
+                            <i class="fab fa-discord"></i> Join & Open Ticket
+                        </a>
+                        <a href="https://discord.com/channels/1440530867939446869/1441511415436279839/1441522766372405430" target="_blank" class="contact-btn btn-ticket" style="flex:1;text-align:center;">
+                            <i class="fas fa-check"></i> Open Ticket Message
+                        </a>
+                    </div>
                 </div>
 
                 <div class="contact-card">
@@ -217,4 +230,3 @@
 
 </body>
 </html>
-
